@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="images/Powder.svg" type="image/x-icon">
+
+        <link rel="stylesheet" href="scripts/style/format.css">
+        <link rel="stylesheet" href="scripts/style/style.css">
+
+        <script type="module" src="scripts/api.js"></script>
+        <script type="module" src="scripts/elements.js"></script>
+        <script type="module" src="scripts/hud.js"></script>
+        <script type="module" src="scripts/controls.js"></script>
+        <script type="module" src="scripts/ambient.js"></script>
+        <script type="module" src="scripts/simulation.js"></script>
+
+        <title>Nano Box</title>
+    </head>
+    <body>
+        <div class="Hud">
+            <div class="SimulationStats">
+                <div class="FpsLabel">FPS: 60</div>
+                <div divider>/</div>
+                <div class="ParticlesLabel">Parts: 0</div>
+            </div>
+        </div>
+        <div class="Elements">
+            <div class="TypeList"></div>
+            <div class="Selector">
+                <div class="Liquid"></div>
+                <div class="Solid"></div>
+                <div class="Powder"></div>
+                <div class="Gas"></div>
+                <div class="Radioactive"></div>
+                <div class="None"></div>
+            </div>
+        </div>
+        <div class="Ambient"></div>
+        <div class="ParticleContainer"></div>
+    </body>
+</html>
